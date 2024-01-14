@@ -97,6 +97,8 @@ margin-right: 20%;
 
 .full{
     font-size: 50px;
+    animation-name: animatepara;
+    animation-timing-function: 2s;
 }
 #work{
     color: orange
@@ -347,18 +349,111 @@ input{
    
 }
 
-#button{
-    margin-top: 3%;
+#but{
     margin-left: 2%;
+    margin-top: 3%;
     height: 85px;
     width: 475px;
+}
+
+#button{
+    margin-left: 2%;
+    margin-top: 3%;
+    height: 75px;
+    width: 455px;
     background-color: orange;
     color: white;
    text-align: center;
    font-size: 25px;
 }
 
+
 button:hover{
     box-shadow: 0 0 5px orange,0 0 25px orange,0 0 100px orange,0 0 200px orange;
 }
 
+@keyframes animatepara{
+    from {rotate: x 90deg}
+    to {font-size:x 0deg;}
+}
+
+@keyframes animateparaname{
+    from {rotate: x 90deg;}
+    to {roate:x 0deg;}
+}
+
+#hello{
+    animation-name: animatepara;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+}
+
+#n{
+    animation-name: animateparaname;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+}
+
+#Iam{
+    animation-name: animatepara;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+}
+
+@media screen and (max-width:600px){
+    #logo{
+width: 0px;
+font-size: 20px;
+    }
+    .fa-solid fa-user{
+display: none;
+    }
+    #m{
+        font-size: 18px;
+        margin-left: 30%;
+    }
+
+    .home{
+        height:max-content;
+    }
+    .full{
+        width: 600px;
+
+    }
+    #n{
+        width: 600px;
+        font-size: 88px;
+    }
+
+    #circle1{
+        margin-top: 12%;
+        margin-left: 20%;
+    }
+    .main{
+        display: inline-block;
+    }
+    #imag{
+        margin-top: 12%;
+    }
+
+    #circle2{
+        display: none;
+    }
+    .About{
+        height: max-content;
+        width: 600px;
+    }
+
+    #mainwrite{
+        width:600px;
+    }
+    .foro{
+        margin-top: 10%;
+    }
+    #email{
+        margin-left: 20%;
+    }
+
+
+}

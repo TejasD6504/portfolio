@@ -23,9 +23,9 @@
     <section class="home">
     <div class="main">
         <div class="home1">
-            <p class="full">Hello Everyone, It's me</p>
+            <p class="full" id="hello">Hello Everyone, It's me</p>
             <p id="n">Tejas Deshmukh</p>
-            <p class="full">and I am <span id="work"> I.T. Engineer.</span></p>
+            <p class="full" id="Iam">and I am <span id="work"> I.T. Engineer.</span></p>
         
     </div>
     <div id="circle1"><video autoplay loop muted play-inline class="backvideo"><source src="WhatsApp Video 2024-01-12 at 21.25.34_e3e7b81d.mp4" type="video/mp4"></video></div>
@@ -105,27 +105,27 @@
     <div class="contact">
         <p id="contacted">CONTACT</p>
     </div>
-
-    <div id="email">
+<form action="https://formsubmit.co/tejasdeshmukh320@gmail.com" method="POST" id="email">
+    
         <p id="one">Email Me<i class="fa-thin fa-envelope"></i></p>
         <div class="ema">
-        <input type="email" placeholder="Your Email"><br>
+        <input type="email" name="email" placeholder="Your Email" id="email1"><br>
+    </div>
+    
+        <input type="text" name="name" placeholder="Your Name" required id="Name1"><br>
+    
+    <div class="ema">
+        <input type="text" name="subject" placeholder="Subject" id="subject1"><br>
     </div>
     <div class="ema">
-        <input type="text" placeholder="Your Name" ><br>
-    </div>
-    <div class="ema">
-        <input type="text" placeholder="Subject" ><br>
-    </div>
-    <div class="ema">
-        <input type="text" placeholder="Message" ><br>
+        <input type="text" name="msg" placeholder="Message" id="message1"><br>
     </div>
     <div id="but">
-        <button id="button"><a href="mailto:tejaldeshmukh9507@gmail.com">SEND </a></button>
+        <button type="submit" id="button">SEND</button>
     </div>
 
-    
-    </div>
+</form>
+
 </section>
 
 </body>
