@@ -19,7 +19,20 @@ font-size: 25px;
 padding-top: 5%;
 padding-left: 5%;
 text-decoration: none;
+animation: logo1 1s ease-in;
 }
+
+@keyframes logo1 {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
 .fa-solid fa-user{
     height: 10px;
     width: 10px;
@@ -31,6 +44,18 @@ text-decoration: none;
     display:inline;
     margin-left: 40%;
     font-size: 20px;
+    animation: m 1s ease-in;
+}
+
+@keyframes ma {
+    from {
+        transform: translateZ(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateZ(0px);
+        opacity: 1;
+    }
 }
 
 #imgit{
@@ -47,6 +72,7 @@ text-decoration: none;
 a{
     margin-left: 5%;
     text-decoration: none;
+    animation: ma 1s ease-in;
 }
 
 p{
@@ -78,6 +104,7 @@ margin-top: 10%;
     width: 400px;
     display:inline-block;
     border-radius: 50%;
+    background-color: black;
 }
 
 .main{
@@ -122,7 +149,7 @@ display: inline-block;
 }
 #circle2
 {
-margin-top: 10%;
+
 margin-left: 10%;
 margin-right: 10%;
     height: 300px;
@@ -131,13 +158,15 @@ margin-right: 10%;
     border-radius: 50%;
     border-style: solid;
     border-color: orange;
-    box-shadow: 1px 1px 90px orange;
+    box-shadow: 10px 10px 5000px orange;
 }
 .backvideo2{
     height: 300px;
     width: 300px;
     display:inline-block;
     border-radius: 50%;
+    background-color: orange;
+    box-shadow: 1px 1px 5000px orange;
 }
 
 
@@ -346,6 +375,7 @@ img{
    
 }
 
+
 input::placeholder{
     margin-left: 12%;
     color: grey;
@@ -358,10 +388,9 @@ input{
     width: 475px;
     background-color: black;
     border:solid grey;
-    border-radius: 2%;
-   
-   
+    border-radius: 2%;  
 }
+
 
 #but{
     margin-left: 2%;
@@ -388,7 +417,7 @@ button:hover{
 
 @keyframes animatepara{
     from {rotate: x 90deg}
-    to {font-size:x 0deg;}
+    to {rotate:x 0deg;}
 }
 
 @keyframes animateparaname{
@@ -449,14 +478,19 @@ display: none;
     }
     #imag{
         margin-top: 12%;
+    
     }
 
+
     #circle2{
-        display: none;
+margin-left: 30%;
+
+        display: inline-block;
     }
     .About{
         height: max-content;
         width: 600px;
+        margin-top: 20%;
     }
 
     #mainwrite{
@@ -464,7 +498,23 @@ display: none;
     }
     .foro{
         margin-top: 10%;
+       height: max-content;
     }
+    .fort{
+        margin-top: 10%;
+        height: max-content;
+   }
+
+   #tskill{
+    margin-left: 5%;
+    width: 50%;
+   }
+   #oskill{
+    margin-left: 5%;
+    width:  max-content;
+    align-content: center;
+   }
+
     #email{
         margin-left: 20%;
     }
@@ -482,7 +532,6 @@ a:hover{
     height: 25px;
     width: 25px;
 }
-
 
 
 
