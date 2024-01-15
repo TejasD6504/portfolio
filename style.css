@@ -18,8 +18,7 @@ color: orange;
 font-size: 25px;
 padding-top: 5%;
 padding-left: 5%;
-text-decoration: underline;
-text-decoration-color: orange;
+text-decoration: none;
 }
 .fa-solid fa-user{
     height: 10px;
@@ -47,6 +46,7 @@ text-decoration-color: orange;
 
 a{
     margin-left: 5%;
+    text-decoration: none;
 }
 
 p{
@@ -104,7 +104,7 @@ margin-right: 20%;
     color: orange
 }
 
-.Aboutme{
+#Aboutme{
     margin-top: 300px;
 }
 .About{
@@ -147,7 +147,7 @@ margin-right: 10%;
     font-size: 30px;
 }
 
-.skills{
+#skills{
     margin-top: 300px;
 }
 #skilled{
@@ -219,9 +219,13 @@ img{
     width: 100px;
 }
 
+#fortej{
+    display: flex;
+    margin-top: 5%;
+}
 .fort{
     margin-left: 5%;
-    height: 393px;
+    height: 420px;
     width: 650px;
     display: inline-block;
     border: solid;
@@ -278,10 +282,20 @@ img{
     display: inline-block;
     text-align: center;
 }
+#Ardiuno
+{
+    margin-left: 5%;
+    margin-top: 5%;
+    height:150px;
+    width: 150px;
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+}
 
 .foro{
     margin-left: 5%;
-    height: 393px;
+    height: 420px;
     width: 650px;
     display: inline-block;
     border: solid;
@@ -299,7 +313,7 @@ img{
     text-align: center;
 }
 
-.contactme{
+#contactme{
     margin-top: 300px;
 }
 
@@ -414,7 +428,7 @@ display: none;
         margin-left: 30%;
     }
 
-    .home{
+    #home{
         height:max-content;
     }
     .full{
@@ -457,3 +471,18 @@ display: none;
 
 
 }
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: orange ;
+    color: orange;
+}
+
+#foremail{
+    height: 25px;
+    width: 25px;
+}
+
+
+
+
